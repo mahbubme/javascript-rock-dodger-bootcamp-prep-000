@@ -90,10 +90,6 @@ function moveDodger(e) {
   else if ( key === RIGHT_ARROW ) {
     moveDodgerRight()
   }
-  
-  if( e.which !== LEFT_ARROW && e.which !== RIGHT_ARROW ) {
-    alert("Press right or left key only");
-  }
 }
 
 function moveDodgerLeft() {
