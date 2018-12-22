@@ -79,10 +79,10 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  var key = e.which
-
   e.preventDefault()
   e.stopPropagation()
+  
+  var key = e.which
 
   if ( key === LEFT_ARROW ) {
     moveDodgerLeft()
