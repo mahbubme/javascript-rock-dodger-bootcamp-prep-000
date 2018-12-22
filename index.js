@@ -92,7 +92,7 @@ function moveDodger(e) {
   }
   
   if( e.which !== LEFT_ARROW && e.which !== RIGHT_ARROW ) {
-    return;
+    alert("Press right or left key only");
   }
 }
 
