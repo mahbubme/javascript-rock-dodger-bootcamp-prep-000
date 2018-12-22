@@ -90,6 +90,10 @@ function moveDodger(e) {
   else if ( key === RIGHT_ARROW ) {
     moveDodgerRight()
   }
+  
+  if( e.which !== LEFT_ARROW && e.which !== RIGHT_ARROW ) {
+    return;
+  }
 }
 
 function moveDodgerLeft() {
